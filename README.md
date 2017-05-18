@@ -5,4 +5,5 @@ server, see the [`README`](deploy/README.md) in the `deploy`
 folder.
 
 Visualizations inspired by https://github.com/andrewhead/package-community
+
 Data initially scraped by https://github.com/andrewhead/Package-Qualifiers
