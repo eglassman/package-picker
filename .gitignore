@@ -1,0 +1,6 @@
+# Junk
+.DS_Store
+
+# Swap files
+.*.swp
+.*.swo

@@ -1,0 +1,17 @@
+appname: isitdead
+groupname: ubuntu
+group_users:
+- ubuntu
+domains:
+- isitdead.today
+- isitalive.today
+localport: 8030
+projectdir: /usr/local/{{ appname }}
+repo: https://github.com/eglassman/package-picker
+branch: master
+privatebucket: isitdead
+venv: "{{ projectdir }}/venv"
+src: "{{ projectdir }}/src"
+logdir: "{{ projectdir }}/logs"
+code_data: "{{ projectdir }}/data"
+flask_dir: "{{ src }}"
