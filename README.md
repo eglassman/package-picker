@@ -1,1 +1,1 @@
-# package-picker
+# Is It Dead?  A Tool For Checking Community and Support Health for Software PackagesFor instructions on how to deploy this software to ourserver, see the [`README`](deploy/README.md) in the `deploy`folder.

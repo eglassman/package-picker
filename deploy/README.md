@@ -2,6 +2,12 @@
 
 ## Deploying to an Ubuntu machine
 
+Get Ansible, which we use for deploying to the machine:
+
+```bash
+brew install ansible
+```
+
 First, install Python on the machine so you can use Ansible
 to run remote commands.  This installs both Python 2 (for
 supporting Ansible 2.0 commands), and Python 3 (for
