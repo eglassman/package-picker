@@ -3,5 +3,8 @@
 
 {% block content %}
   <h1>Not dead. Yet.</h1>
+  {% for result in results %}
+  	<h5>{{result.title}}</h5>
+  {% endfor %}
 {% endblock %}
 
