@@ -4,3 +4,6 @@
 # Swap files
 .*.swp
 .*.swo
+
+# Credentials
+*-credentials.json
