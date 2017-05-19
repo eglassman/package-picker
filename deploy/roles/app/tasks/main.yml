@@ -93,6 +93,10 @@
   become: true
   tags: nginx
 
+- name: Fetch PostgreSQL configuration
+  s3: bucket={{ privatebucket }} object=postgres-credentials.json dest={{ src }}/postgres-credentials.json mode=get
+      aws_access_key={{ aws_access_key_id }} aws_secret_key={{ aws_secret_access_key }} region=us-west-2
+
 - name: Start supervisor
   service: name=supervisor state=started
   become: true
