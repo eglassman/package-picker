@@ -12,6 +12,8 @@ itsdangerous==0.24
 Jinja2==2.9.6
 MarkupSafe==1.0
 packaging==16.8
+peewee==2.10.1
+psycopg2==2.7.1
 pyparsing==2.2.0
 six==1.10.0
 visitor==0.1.3
